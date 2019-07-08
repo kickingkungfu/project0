@@ -1,4 +1,4 @@
-		<h3>
+		<footer id="Directory">
 			<ul>
 				<li><a href="index.html">INDEX</a></li>
 				<li><a href="3DLinux.html">3DLINUX</a></li>
@@ -6,4 +6,4 @@
 				<li><a href="BlenderBakery.html">BLENDER BAKERY</a></li>
 				<li><a href="collaboratewithme.html">COLLABORATE WITH ME!</a></li>
 			</ul>
-		</h3>
+		</footer>

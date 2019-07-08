@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>My Webpage</title>
+		<title>3D Linux</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<style>
+		@media print {
+			.screen-only {
+				display: none;
+			}
+		}
+	</style>
 	</head>
 	<body>
-		Hello, World!
-		<h3>
-			<ul>
-				<li><a href="index.html">INDEX</a></li>
-				<li><a href="3DLinux.html">3DLINUX</a></li>
-				<li><a href="biotropolis.html">BIOTROPOLIS</a></li>
-				<li><a href="BlenderBakery.html">BLENDER BAKERY</a></li>
-				<li><a href="collaboratewithme.html">COLLABORATE WITH ME!</a></li>
-			</ul>
-		</h3>
-	</body>
+	<div id="container">
+		<div id="top">
+			<h1>3D Linux</h1>
+			<h3>Conceptual drawings</h3>
+			<p>Below are a couple of pictures of some conceptual drawings that I have done on how to represent the Linux Operating system as it boots up.  It is not comprehensive at the moment, but a work in progress. 
+		</div>
+		<div id="table">
+			<table>
+			<th>Linux 3D Representations</th>
+			<tr>
+			
+				<td><img class="screen-only" src="BIOSandGRUB.jpeg"	width="400" height="200"></td>
+				<td><img class="screen-only" src="GRUBandOSSelection.jpeg"	width="400" height="200"></td>
+				<td><img class="screen-only" src="sbin-initpicture.jpeg"	width="400" height="200"></td>
+				<td><img class="screen-only" src="startupandshutdown.jpeg"	width="400" height="200"></td>
+			</tr>
+			<tr>
+				<td>Concept of the machine's BIOS handing over control to GRUB the bootloader.</td>
+				<td>The process of GRUB providing the options to choose from different OSs and kernels.</td>
+				<td>Key role that sbin/init has in managing the system and is the first process.</td>
+				<td>Concepts for showing the system as an object that starts up and shuts down.</td>
+			</tr>
+			</div>
+			<footer>
+				<ul>
+					<li><a href="index.html">INDEX</a></li>
+					<li><a href="3DLinux.html">3DLINUX</a></li>
+					<li><a href="biotropolis.html">BIOTROPOLIS</a></li>
+					<li><a href="BlenderBakery.html">BLENDER BAKERY</a></li>
+					<li><a href="collaboratewithme.html">COLLABORATE WITH ME!</a></li>
+				</ul>
+			</footer>
+		</div>
+		</body>
 </html>
 
