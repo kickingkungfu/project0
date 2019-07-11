@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Webpage | Introduction</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-9"><h4>Introduction</h4>
+				</div>
+		<div class="col-lg-8">
+			<div>
+			</div>
+		</div>
+			<div class="col-lg-4">
+				<footer id="Directory">
+					<h3>DIRECTORY</h3>
+						<ul>
+							<li><a href="index.html">INDEX</a></li>
+							<li><a href="3DLinux.html">3DLINUX</a></li>
+							<li><a href="biotropolis.html">BIOTROPOLIS</a></li>
+							<li><a href="BlenderBakery.html">BLENDER BAKERY</a></li>
+							<li><a href="collaboratewithme.html">COLLABORATE WITH ME!</a></li>
+						</ul>
+				</footer>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
+

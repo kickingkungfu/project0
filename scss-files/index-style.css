@@ -1,0 +1,44 @@
+#<link rel="stylesheet" href="style.txt">
+
+
+$color: green;
+$font-family: arial;
+$background: white:
+
+footer {
+	a:hover {
+		background-color: orange
+}
+
+h3 {
+	font-weight:bold
+	color:blue
+}
+
+img {
+	height:"200"
+	width:"350"
+}
+
+@media (max-width: 800px) {
+	body {
+		background-color: yellow;
+	}
+}
+
+@media (min-width: 799px) {
+	body {
+		background-color: green;
+	}
+}
+
+input [type=text] {
+	text-color: magenta;
+}
+
+p {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: $font-family:
+}
+
