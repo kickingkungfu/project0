@@ -1,19 +1,19 @@
 ul {
   font-size: 14px;
-  color: red; }
+  color: yellow; }
 
 body {
-  background-color: black;
+  background-color: blue;
   color: white; }
 
 .col-9 {
   background-color: orange; }
   .col-9 h2 {
-    color: red;
+    color: yellow;
     font-weight: bold; }
 
 footer > ul {
   color: blue;
   font-weight: bold; }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=3DLinux.css.map */

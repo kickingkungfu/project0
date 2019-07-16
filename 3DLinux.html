@@ -3,48 +3,64 @@
 	<head>
 		<title>3D Linux</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-	<style>
+	<link rel="stylesheet" href="3DLinux.css">
+	<style rel="stylesheet" href="3DLinux.css">
 		@media print {
 			.screen-only {
 				display: none;
 			}
 		}
+			table, th, td {
+				border: 2px solid white;
+				text-align: center;
+			}
 	</style>
 	</head>
 	<body>
-	<div id="container">
-		<div id="top">
-			<h1>3D Linux</h1>
-			<h3>Conceptual drawings</h3>
-			<p>Below are a couple of pictures of some conceptual drawings that I have done on how to represent the Linux Operating system as it boots up.  It is not comprehensive at the moment, but a work in progress. 
-		</div>
-		<div id="table">
-			<table>
-			<th>Linux 3D Representations</th>
-			<tr>
-			
-				<td><img class="screen-only" src="BIOSandGRUB.jpeg"	width="400" height="200"></td>
-				<td><img class="screen-only" src="GRUBandOSSelection.jpeg"	width="400" height="200"></td>
-				<td><img class="screen-only" src="sbin-initpicture.jpeg"	width="400" height="200"></td>
-				<td><img class="screen-only" src="startupandshutdown.jpeg"	width="400" height="200"></td>
-			</tr>
-			<tr>
-				<td>Concept of the machine's BIOS handing over control to GRUB the bootloader.</td>
-				<td>The process of GRUB providing the options to choose from different OSs and kernels.</td>
-				<td>Key role that sbin/init has in managing the system and is the first process.</td>
-				<td>Concepts for showing the system as an object that starts up and shuts down.</td>
-			</tr>
+	<div class="container">
+		<div class="row">
+			<div class="col-9"><h2>3D Linux</h2>
+					<p>Below are a couple of pictures of some conceptual drawings that I have done on how to represent the Linux Operating system as it boots up.  It is not comprehensive at the moment, but a work in progress. 
 			</div>
-			<footer>
-				<ul>
-					<li><a href="index.html">INDEX</a></li>
-					<li><a href="3DLinux.html">3DLINUX</a></li>
-					<li><a href="biotropolis.html">BIOTROPOLIS</a></li>
-					<li><a href="BlenderBakery.html">BLENDER BAKERY</a></li>
-					<li><a href="collaboratewithme.html">COLLABORATE WITH ME!</a></li>
-				</ul>
-			</footer>
+			<div class="col-lg-8">
+				<div>
+					<h4>Conceptual drawings</h4>
+				</div>
+				<div id="table">
+					<table>
+						<th>BIOS and GRUB</th>
+						<th>GRUB and OS Selection</th>
+						<th>/sbin/init</th>
+						<th>Start Up and Shutdown</th>
+						<tr>
+							<td><img class="screen-only" src="BIOSandGRUB.jpeg"	width="400" height="200"></td>
+							<td><img class="screen-only" src="GRUBandOSSelection.jpeg"	width="400" height="200"></td>
+							<td><img class="screen-only" src="sbin-initpicture.jpeg"	width="400" height="200"></td>
+							<td><img class="screen-only" src="startupandshutdown.jpeg"	width="400" height="200"></td>
+						</tr>
+						<tr>
+							<td>Concept of the machine's BIOS handing over control to GRUB the bootloader.</td>
+							<td>The process of GRUB providing the options to choose from different OSs and kernels.</td>
+							<td>Key role that sbin/init has in managing the system and is the first process.</td>
+							<td>Concepts for showing the system as an object that starts up and shuts down.</td>
+						</tr>
+					</table>
+				</div>
+			</div>
 		</div>
-		</body>
+			<div class="col-lg-4">
+				<footer id="Directory">
+					<h3>DIRECTORY</h3>
+						<ul>
+							<li><a href="index.html">INDEX</a></li>
+							<li><a href="3DLinux.html">3DLINUX</a></li>
+							<li><a href="biotropolis.html">BIOTROPOLIS</a></li>
+							<li><a href="BlenderBakery.html">BLENDER BAKERY</a></li>
+							<li><a href="collaboratewithme.html">COLLABORATE WITH ME!</a></li>
+						</ul>
+				</footer>
+			</div>
+	</div>
+	</body>
 </html>
 
