@@ -1,15 +1,15 @@
 ul, ol {
   font-size: 14px;
-  color: yellow; }
+  color: purple; }
 
 body {
-  background-color: blue;
+  background-color: turquoise;
   color: white; }
 
 .col-9 {
   background-color: orange; }
   .col-9 h2 {
-    color: yellow;
+    color: purple;
     font-weight: bold; }
 
 footer > ul {
@@ -17,7 +17,7 @@ footer > ul {
   font-weight: bold; }
 
 h2 {
-  font-family: "Verdana";
+  font-family: "Arial";
   font-weight: bold; }
 
 #Directory a:hover {
@@ -25,4 +25,4 @@ h2 {
   display: inline-block;
   background-color: darkblue; }
 
-/*# sourceMappingURL=3DLinux.css.map */
+/*# sourceMappingURL=collaboratewithme.css.map */

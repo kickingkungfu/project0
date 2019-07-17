@@ -1,15 +1,15 @@
 ul, ol {
   font-size: 14px;
-  color: yellow; }
+  color: violet; }
 
 body {
-  background-color: blue;
+  background-color: pink;
   color: white; }
 
 .col-9 {
   background-color: orange; }
   .col-9 h2 {
-    color: yellow;
+    color: violet;
     font-weight: bold; }
 
 footer > ul {
@@ -17,7 +17,7 @@ footer > ul {
   font-weight: bold; }
 
 h2 {
-  font-family: "Verdana";
+  font-family: "Lucida Console";
   font-weight: bold; }
 
 #Directory a:hover {
@@ -25,4 +25,4 @@ h2 {
   display: inline-block;
   background-color: darkblue; }
 
-/*# sourceMappingURL=3DLinux.css.map */
+/*# sourceMappingURL=BlenderBakery.css.map */

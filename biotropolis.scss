@@ -1,29 +1,63 @@
 $color: brown;
 $body-color: darkgreen;
+$back-color: orange;
+$body-font-color: black;
+$ffamily: "Georgia";
 
-ul {
+ul, ol {
 	font-size: 14px;
 	color: $color;
 }
 
 body {
 	background-color: $body-color;
-	color: white;
+	color: $body-font-color;
 }
 
 .col-9 {
-	background-color: orange;
+	background-color: $back-color;
 	h2 {
 	color: $color;
 	font-weight: bold;
 	}
 }
 
-.container {
-
-}
-
 footer > ul {
 	color: blue;
 	font-weight: bold;
 }
+
+h2 {
+	font: {
+		family: $ffamily;
+		weight: bold;
+	}
+}
+
+#Directory {
+	a:hover {
+		color: yellow;
+		display: inline-block;
+		background-color: darkblue;
+	}
+}
+
+%button-default {
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	cursor: "<img src=leaf.jpeg>";
+}
+
+#option1 { 
+	@extend %button-default;
+	border-color: green;	
+}
+
+

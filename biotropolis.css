@@ -1,10 +1,10 @@
-ul {
+ul, ol {
   font-size: 14px;
   color: brown; }
 
 body {
   background-color: darkgreen;
-  color: white; }
+  color: black; }
 
 .col-9 {
   background-color: orange; }
@@ -15,5 +15,29 @@ body {
 footer > ul {
   color: blue;
   font-weight: bold; }
+
+h2 {
+  font-family: "Georgia";
+  font-weight: bold; }
+
+#Directory a:hover {
+  color: yellow;
+  display: inline-block;
+  background-color: darkblue; }
+
+#option1 {
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: "<img src=leaf.jpeg>"; }
+
+#option1 {
+  border-color: green; }
 
 /*# sourceMappingURL=biotropolis.css.map */

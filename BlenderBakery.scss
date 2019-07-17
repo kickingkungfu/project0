@@ -1,8 +1,8 @@
-$color: red;
-$body-color: black;
+$color: violet;
+$body-color: pink;
 $back-color: orange;
 $body-font-color: white;
-$ffamily: "Times New Roman";
+$ffamily: "Lucida Console";
 
 ul, ol {
 	font-size: 14px;
@@ -34,7 +34,7 @@ h2 {
 	}
 }
 
-#Directory > ul > li {
+#Directory {
 	a:hover {
 		color: yellow;
 		display: inline-block;

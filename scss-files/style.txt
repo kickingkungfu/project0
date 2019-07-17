@@ -1,0 +1,37 @@
+#<link rel="stylesheet" href="style.txt">
+
+
+$color: green;
+$font-family: Arial, sans-serif;
+$back-color-sm: green;
+$back-color-lg: blue;
+
+.col-lg-8 {
+	a:hover {
+		background-color: $color
+	}
+	footer > h3 {
+		font-weight: bold;
+	}
+}
+
+img {
+	height:"200"
+	width:"350"
+}
+
+@media (max-width: 800px) {
+	body {
+		background-color: $back-color-lg;
+	}
+}
+
+@media (min-width: 799px) {
+	body {
+		background-color: $back-color-sm;
+	}
+}
+
+input [type=text] {
+	text-color: magenta;
+}

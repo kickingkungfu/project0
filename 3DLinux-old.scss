@@ -1,40 +1,31 @@
-$color: red;
-$body-color: black;
-$back-color: orange;
-$body-font-color: white;
-$ffamily: "Times New Roman";
+$color: yellow;
+$body-color: blue;
 
-ul, ol {
+ul {
 	font-size: 14px;
 	color: $color;
 }
 
 body {
 	background-color: $body-color;
-	color: $body-font-color;
+	color: white;
 }
 
 .col-9 {
-	background-color: $back-color;
+	background-color: orange;
 	h2 {
 	color: $color;
 	font-weight: bold;
 	}
 }
 
+
 footer > ul {
 	color: blue;
 	font-weight: bold;
 }
 
-h2 {
-	font: {
-		family: $ffamily;
-		weight: bold;
-	}
-}
-
-#Directory > ul > li {
+#DIRECTORY {
 	a:hover {
 		color: yellow;
 		display: inline-block;

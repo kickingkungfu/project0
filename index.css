@@ -1,4 +1,4 @@
-ul {
+ul, ol {
   font-size: 14px;
   color: red; }
 
@@ -15,5 +15,14 @@ body {
 footer > ul {
   color: blue;
   font-weight: bold; }
+
+h2 {
+  font-family: "Times New Roman";
+  font-weight: bold; }
+
+#Directory > ul > li a:hover {
+  color: yellow;
+  display: inline-block;
+  background-color: darkblue; }
 
 /*# sourceMappingURL=index.css.map */

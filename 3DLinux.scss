@@ -1,26 +1,44 @@
 $color: yellow;
 $body-color: blue;
+$back-color: orange;
+$body-font-color: white;
+$ffamily: "Verdana";
 
-ul {
+ul, ol {
 	font-size: 14px;
 	color: $color;
 }
 
 body {
 	background-color: $body-color;
-	color: white;
+	color: $body-font-color;
 }
 
 .col-9 {
-	background-color: orange;
+	background-color: $back-color;
 	h2 {
 	color: $color;
 	font-weight: bold;
 	}
 }
 
-
 footer > ul {
 	color: blue;
 	font-weight: bold;
 }
+
+h2 {
+	font: {
+		family: $ffamily;
+		weight: bold;
+	}
+}
+
+#Directory {
+	a:hover {
+		color: yellow;
+		display: inline-block;
+		background-color: darkblue;
+	}
+}
+
