@@ -18,4 +18,39 @@ The BlenderBakery.html webpage has a table that lists the initial drawings for t
 
 A stylesheet file was created for each webpage.  Each webpage has a different color scheme that I tried to match up with the subject.
   The stylesheets use the below CSS properties and elements:
-    
+    CSS Properties:
+      font-size
+      font-family
+      color
+      font-weight
+      display
+      background-color
+        
+  There are also various CSS properties included in the style pages for some of the html pages
+  
+    CSS Elements:
+      footer
+      ul
+      h2
+      ol
+      body
+
+The .col-9 selector was also used on a div class and the #Directory selector was used on a div id.
+
+The stylesheet for the biotropolis.html page includes a @media query and shrinks the paragraph down for smaller screens.
+
+Bootstrap was included in the header for each webpage and a specific column layout using col-9, col-lg-8, and col-lg-4 was used for several divs in the webpages to give them a column layout using the grid model.  The boostrap element for both the forms on the collaboratewithme.html page was used along with a button element on the biotropolis.html page.
+
+The stylesheets use the SCSS variables listed below:
+  $color
+  $body-color
+  $back-color
+  $body-font-color
+  $ffamily
+  
+There is SCSS nesting in the stylesheet for the class .col-9 and h2, along with a in the id #Directory.
+
+Include a description for inheritance here.  One option are the spans in the BlenderBakery.html page.
+
+
+
