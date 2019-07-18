@@ -25,19 +25,11 @@ h2 {
   display: inline-block;
   background-color: darkblue; }
 
-#option1 {
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
-  display: inline-block;
-  text-decoration: none;
-  cursor: "<img src=leaf.jpeg>"; }
-
-#option1 {
-  border-color: green; }
+@media (min-width: 500px) {
+  p::before {
+    content: "This project involves the use of a phone to go around the neighborhood and take pictures of the trees that are around.  Any trees that are landmarks in the neighborhood would be documented.  One of the ideas with the pictures is to have the centralized location and then anyone can click on it on a map and then see the other pictures people have taken with the tree or of the tree."; } }
+@media (max-width: 499px) {
+  p::before {
+    content: "Take a picture of the tree, categorize it and share!"; } }
 
 /*# sourceMappingURL=biotropolis.css.map */

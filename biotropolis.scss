@@ -42,3 +42,14 @@ h2 {
 	}
 }
 
+@media (min-width:  500px) {
+	p::before {
+				content: "This project involves the use of a phone to go around the neighborhood and take pictures of the trees that are around.  Any trees that are landmarks in the neighborhood would be documented.  One of the ideas with the pictures is to have the centralized location and then anyone can click on it on a map and then see the other pictures people have taken with the tree or of the tree.";
+	}
+}
+
+@media (max-width:  499px) {
+	p::before {
+	content: "Take a picture of the tree, categorize it and share!";
+	}
+}

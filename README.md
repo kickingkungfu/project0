@@ -2,7 +2,7 @@
 
 Web Programming with Python and JavaScript
 
-My website consists of the four below html webpages:
+My website consists of the five below html webpages:
 
   index.html - a brief introduction of myself and the other webpages in the project
   3DLinux.html - a breakdown of my thoughts on this project and a start off point to develop further
@@ -26,7 +26,7 @@ A stylesheet file was created for each webpage.  Each webpage has a different co
       display
       background-color
         
-  There are also various CSS properties included in the style pages for some of the html pages
+  There are also various CSS properties included in the <style> elements for some of the html pages.
   
     CSS Elements:
       footer
@@ -35,7 +35,7 @@ A stylesheet file was created for each webpage.  Each webpage has a different co
       ol
       body
 
-The .col-9 selector was also used on a div class and the #Directory selector was used on a div id.
+The .col-9 selector was also used on a <div> class and the #Directory selector was used on a <div> id.
 
 The stylesheet for the biotropolis.html page includes a @media query and shrinks the paragraph down for smaller screens.
 
@@ -50,7 +50,6 @@ The stylesheets use the SCSS variables listed below:
   
 There is SCSS nesting in the stylesheet for the class .col-9 and h2, along with a in the id #Directory.
 
-Include a description for inheritance here.  One option are the spans in the BlenderBakery.html page.
-
+An SCSS inheritance was included on the BlenderBakery.html page in the highlighted text of the paragraphs given the class highlights.  A shadow effect, bolding, sizing, and font family was added to the properites of the text.  These properties were inherited by the words encased in <span> in the paragraphs.  A color was added to each of spans in each of the paragraphs differentiating them from one another.
 
 
